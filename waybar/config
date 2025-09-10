@@ -10,11 +10,8 @@
   "modules-center": ["clock"],
 
   "modules-right": [
-    "custom/pomodoro",
     "bluetooth",
     "network",
-    "pulseaudio", 
-    "backlight",
     "battery",
   ],
 
@@ -82,7 +79,7 @@
     "format-icons": {
       "default": ["", "", " "]
     },
-    "on-click": "pavucontrol"
+    "on-click": "pavucontrol",
   },
 
   "battery": {

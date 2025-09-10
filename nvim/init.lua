@@ -108,3 +108,7 @@ require("dashboard").setup ({
         footer = { "⚡hehe ⚡" },
       },
     })
+
+
+--cliboard
+vim.o.clipboard = "unnamedplus"

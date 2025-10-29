@@ -117,7 +117,7 @@ fi
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-eval "$(oh-my-posh init bash --config ~/1_shell.omp.json)"
+eval "$(oh-my-posh init bash --config ~/atomic.omp.json)"
 
 # Created by `pipx` on 2025-08-01 12:19:48
 export PATH="$PATH:/home/yeah/.local/bin"

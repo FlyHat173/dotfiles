@@ -6,7 +6,6 @@ padding.x = 10
 padding.y = 10
 
 # decorations = "Buttonless"
-decorations = "None" #for linux also
 
 opacity = 0.50
 blur = true 

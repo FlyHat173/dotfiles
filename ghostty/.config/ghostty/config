@@ -1,8 +1,0 @@
-font-family = 0xProto
-font-size = 14
-window-padding-x = 1
-window-padding-y = 1
-resize-overlay-duration = 4s 200ms
-background-opacity = 0.50
-background-blur = 20
-theme = catppuccin-mocha

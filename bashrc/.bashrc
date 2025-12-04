@@ -147,3 +147,8 @@ function y() {
 export EDITOR="nvim"
 export VISUAL="nvim"
 alias nvi='nvim'
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+

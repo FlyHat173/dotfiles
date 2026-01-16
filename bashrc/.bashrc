@@ -117,7 +117,6 @@ fi
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-eval "$(oh-my-posh init bash --config ~/atomic.omp.json)"
 
 # Created by `pipx` on 2025-08-01 12:19:48
 export PATH="$PATH:/home/yeah/.local/bin"
@@ -151,4 +150,8 @@ alias nvi='nvim'
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
+
+eval "$(starship init bash)"
+
+eval "$(zoxide init bash)"
 

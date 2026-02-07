@@ -213,4 +213,4 @@ bindsym $mod+c exec --no-startup-id i3lock \
   --separator-color=00000000
 
 bindsym $mod+Print exec flameshot gui
-bindsym $mod+v exec brave-browser
+bindsym $mod+v exec zen

@@ -24,7 +24,7 @@ font pango:Fira_Code_v6.2 14
 exec --no-startup-id dex-autostart --autostart --environment i3
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 exec_always --no-startup-id killall polybar
-exec_always feh --bg-scale ~/dotfiles/image/nice-blue-background.png
+exec_always --no-startup-id feh --bg-scale ~/dotfiles/image/9000085.jpg
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 

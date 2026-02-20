@@ -1,0 +1,40 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Mexican Wave Game"
+run/main_scene="uid://bklubkulutqyb"
+config/features=PackedStringArray("4.5", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+SceneSwitcher="*res://scenes/scene_switcher.tscn"
+SaveManager="*res://scenes/data/save_manager.gd"
+Global="*res://scenes/Global.gd"
+Settings="*res://scenes/data/settings.gd"
+AudioManager="*res://scenes/audio/audio_manager.tscn"
+LeaderboardsManager="*res://scenes/utilities/leaderboards_manager.gd"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/scale_mode="integer"
+
+[layer_names]
+
+2d_physics/layer_1="Terrain"
+2d_physics/layer_2="CrowdMembers"
+2d_physics/layer_3="TriggerZones"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0

@@ -1,0 +1,662 @@
+[gd_scene load_steps=33 format=3 uid="uid://bklubkulutqyb"]
+
+[ext_resource type="Script" uid="uid://ddf65fgyd437n" path="res://scenes/main.gd" id="1_ig7tw"]
+[ext_resource type="Texture2D" uid="uid://w60be57ca6ml" path="res://assets/art/stadium/clouds/CloudSprite-1.png" id="3_dp3eg"]
+[ext_resource type="Texture2D" uid="uid://c078h7knc5syp" path="res://assets/art/stadium/StadiumBackground.png" id="3_o6xl0"]
+[ext_resource type="Texture2D" uid="uid://be6ajqsvwyjmr" path="res://assets/art/stadium/clouds/CloudSprite-2.png" id="4_0ld40"]
+[ext_resource type="Theme" uid="uid://dy8agccfk1yd7" path="res://scenes/ui/ui_theme.tres" id="4_jscy8"]
+[ext_resource type="PackedScene" uid="uid://b4jfm050tml0n" path="res://scenes/crowd/crowd.tscn" id="4_tipki"]
+[ext_resource type="Texture2D" uid="uid://bgnn0ubbsmhw1" path="res://assets/art/stadium/StadiumInFrontOfPeople.png" id="5_85g3d"]
+[ext_resource type="Texture2D" uid="uid://cle2v1bwo2g3k" path="res://assets/art/stadium/clouds/CloudSprite-3.png" id="5_gqmmt"]
+[ext_resource type="Texture2D" uid="uid://jf051ov1rwtn" path="res://scenes/ui/start_button_animated_texture.tres" id="6_o6xl0"]
+[ext_resource type="Texture2D" uid="uid://doxfnkwsv6oew" path="res://scenes/ui/game_title_animated_text.tres" id="7_jscy8"]
+[ext_resource type="Texture2D" uid="uid://b6c1x0tqb2smy" path="res://scenes/ui/settings_button_animated_texture.tres" id="7_tipki"]
+[ext_resource type="PackedScene" uid="uid://cnmf4ghisg08r" path="res://scenes/ui/pause_menu.tscn" id="8_tipki"]
+[ext_resource type="Texture2D" uid="uid://cjv2un42alb7m" path="res://assets/art/ui/Button_HowToPlay/HowToPlayMenuButton1.png" id="12_y6deb"]
+[ext_resource type="Texture2D" uid="uid://b7kkijhdyo0s6" path="res://assets/art/ui/Button_HowToPlay/HowToPlayMenuButton2.png" id="13_og1vs"]
+[ext_resource type="Texture2D" uid="uid://bsivclqgcee2i" path="res://assets/art/ui/Button_HowToPlay/HowToPlayMenuButton3.png" id="14_2wyq8"]
+[ext_resource type="Texture2D" uid="uid://sjx3paba3xxv" path="res://assets/art/ui/Button_HowToPlay/HowToPlayMenuButton4.png" id="15_vxglm"]
+[ext_resource type="Texture2D" uid="uid://dqhkyypmc6362" path="res://assets/art/ui/Button_HowToPlay/HowToPlayMenuButton5.png" id="16_2f3dj"]
+[ext_resource type="PackedScene" uid="uid://b6fwghryb8gr6" path="res://scenes/ui/leaderboard_popup.tscn" id="16_jbj1t"]
+[ext_resource type="PackedScene" uid="uid://5sj7yhcl7bgn" path="res://scenes/ui/tutorial_popup.tscn" id="17_muem4"]
+[ext_resource type="Texture2D" uid="uid://cc6r0tsq4gt44" path="res://assets/art/ui/Button_Rankings/RankingsButton1.png" id="17_pm3ni"]
+[ext_resource type="Texture2D" uid="uid://dxtrsw0b0s8ui" path="res://assets/art/ui/Button_Rankings/RankingsButton2.png" id="18_y6deb"]
+[ext_resource type="Texture2D" uid="uid://bv8hsrgg4eyfy" path="res://assets/art/ui/Button_Rankings/RankingsButton3.png" id="19_og1vs"]
+[ext_resource type="Texture2D" uid="uid://clelr3grx478c" path="res://assets/art/ui/Button_Rankings/RankingsButton4.png" id="20_2wyq8"]
+[ext_resource type="Texture2D" uid="uid://cdd2c2jjcrktt" path="res://assets/art/ui/Trophy/Trophy1.png" id="21_vxglm"]
+[ext_resource type="Texture2D" uid="uid://dhiv81yuuvkix" path="res://assets/art/ui/Trophy/Trophy2.png" id="22_2f3dj"]
+[ext_resource type="Texture2D" uid="uid://c21ki2g0eowm5" path="res://assets/art/ui/Trophy/Trophy3.png" id="23_yq6so"]
+[ext_resource type="Texture2D" uid="uid://bg7thpytucjk4" path="res://assets/art/ui/Trophy/Trophy4.png" id="24_fv21b"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_yq6so"]
+load_path = "res://.godot/imported/StadiumPitch.png-16a5b053450c015e0f7b27af646f467c.ctex"
+
+[sub_resource type="AnimatedTexture" id="AnimatedTexture_chjal"]
+frames = 5
+speed_scale = 3.0
+frame_0/texture = ExtResource("12_y6deb")
+frame_1/texture = ExtResource("13_og1vs")
+frame_1/duration = 1.0
+frame_2/texture = ExtResource("14_2wyq8")
+frame_2/duration = 1.0
+frame_3/texture = ExtResource("15_vxglm")
+frame_3/duration = 1.0
+frame_4/texture = ExtResource("16_2f3dj")
+frame_4/duration = 1.0
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vxglm"]
+
+[sub_resource type="AnimatedTexture" id="AnimatedTexture_pm3ni"]
+frames = 4
+frame_0/texture = ExtResource("17_pm3ni")
+frame_1/texture = ExtResource("18_y6deb")
+frame_1/duration = 1.0
+frame_2/texture = ExtResource("19_og1vs")
+frame_2/duration = 1.0
+frame_3/texture = ExtResource("20_2wyq8")
+frame_3/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="AnimatedTexture_tel4y"]
+frames = 4
+frame_0/texture = ExtResource("22_2f3dj")
+frame_1/texture = ExtResource("23_yq6so")
+frame_1/duration = 1.0
+frame_2/texture = ExtResource("24_fv21b")
+frame_2/duration = 1.0
+frame_3/texture = ExtResource("21_vxglm")
+frame_3/duration = 1.0
+
+[node name="Main" type="Node2D" node_paths=PackedStringArray("_play_button", "_settings_button", "_tutorial_button", "_rankings_button", "_trophy_button_1", "_trophy_button_2", "_settings_popup", "_tutorial_popup", "_leaderboard_popup")]
+script = ExtResource("1_ig7tw")
+_play_button = NodePath("Buttons/PlayButton")
+_settings_button = NodePath("Buttons/SettingsButton")
+_tutorial_button = NodePath("Buttons/TutorialButton")
+_rankings_button = NodePath("Buttons/RankingsButton")
+_trophy_button_1 = NodePath("Buttons/TrophyButton1")
+_trophy_button_2 = NodePath("Buttons/TrophyButton2")
+_settings_popup = NodePath("PauseMenu")
+_tutorial_popup = NodePath("TutorialPopup")
+_leaderboard_popup = NodePath("LeaderboardPopup")
+
+[node name="EndlessRunnerScreenView" type="Node2D" parent="."]
+
+[node name="ScrollingBackground" type="Node2D" parent="EndlessRunnerScreenView"]
+
+[node name="Sky" type="Parallax2D" parent="EndlessRunnerScreenView/ScrollingBackground"]
+z_index = -1
+scroll_scale = Vector2(0.85, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="Sky" type="Sprite2D" parent="EndlessRunnerScreenView/ScrollingBackground/Sky"]
+position = Vector2(1152, 324)
+texture = ExtResource("3_o6xl0")
+
+[node name="Clouds1" type="Parallax2D" parent="EndlessRunnerScreenView/ScrollingBackground"]
+z_index = -1
+scroll_scale = Vector2(0.8, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="Cloud1" type="Sprite2D" parent="EndlessRunnerScreenView/ScrollingBackground/Clouds1"]
+position = Vector2(-37, 32)
+scale = Vector2(8, 8)
+texture = ExtResource("3_dp3eg")
+offset = Vector2(29.25, 6.625)
+
+[node name="Cloud2" type="Sprite2D" parent="EndlessRunnerScreenView/ScrollingBackground/Clouds1"]
+position = Vector2(859, 62)
+scale = Vector2(8, 8)
+texture = ExtResource("4_0ld40")
+
+[node name="Clouds2" type="Parallax2D" parent="EndlessRunnerScreenView/ScrollingBackground"]
+z_index = -1
+scroll_scale = Vector2(0.85, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="Cloud3" type="Sprite2D" parent="EndlessRunnerScreenView/ScrollingBackground/Clouds2"]
+position = Vector2(437, 146)
+scale = Vector2(4, 4)
+texture = ExtResource("5_gqmmt")
+
+[node name="Cloud4" type="Sprite2D" parent="EndlessRunnerScreenView/ScrollingBackground/Clouds2"]
+position = Vector2(1089, 130)
+scale = Vector2(4, 4)
+texture = ExtResource("3_dp3eg")
+
+[node name="BackRails" type="Parallax2D" parent="EndlessRunnerScreenView/ScrollingBackground"]
+scroll_scale = Vector2(0.99, 1)
+scroll_offset = Vector2(0, -368)
+repeat_size = Vector2(1152, 0)
+
+[node name="StadiumBackRailings" type="Sprite2D" parent="EndlessRunnerScreenView/ScrollingBackground/BackRails"]
+modulate = Color(0.91, 0.91, 0.91, 1)
+position = Vector2(536, 436)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_85g3d")
+
+[node name="Seats" type="Parallax2D" parent="EndlessRunnerScreenView/ScrollingBackground"]
+scroll_scale = Vector2(1.1, 0)
+scroll_offset = Vector2(0, -368)
+repeat_size = Vector2(1152, 0)
+
+[node name="Seats" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingBackground/Seats"]
+offset_top = 568.0
+offset_right = 1152.0
+offset_bottom = 864.0
+color = Color(0.19607843, 0.45882353, 0.7019608, 1)
+
+[node name="Crowd" parent="EndlessRunnerScreenView" instance=ExtResource("4_tipki")]
+num_columns = 23
+
+[node name="ScrollingForeground" type="Node2D" parent="EndlessRunnerScreenView"]
+
+[node name="FrontRails" type="Parallax2D" parent="EndlessRunnerScreenView/ScrollingForeground"]
+scroll_scale = Vector2(0.99, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="StadiumBackRailings" type="Sprite2D" parent="EndlessRunnerScreenView/ScrollingForeground/FrontRails"]
+z_index = 15
+position = Vector2(535, 432)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_85g3d")
+
+[node name="StadiumBackRailings2" type="Sprite2D" parent="EndlessRunnerScreenView/ScrollingForeground/FrontRails"]
+z_index = 15
+position = Vector2(535, 392)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_85g3d")
+
+[node name="Trim1" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/FrontRails"]
+z_index = 25
+offset_top = 589.0
+offset_right = 130.0
+offset_bottom = 594.0
+color = Color(0.17254902, 0.24313726, 0.38039216, 1)
+
+[node name="Trim2" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/FrontRails"]
+z_index = 25
+offset_left = 150.0
+offset_top = 589.0
+offset_right = 563.0
+offset_bottom = 594.0
+color = Color(0.17254902, 0.24313726, 0.38039216, 1)
+
+[node name="Trim3" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/FrontRails"]
+z_index = 25
+offset_left = 586.0
+offset_top = 589.0
+offset_right = 979.0
+offset_bottom = 594.0
+color = Color(0.17254902, 0.24313726, 0.38039216, 1)
+
+[node name="Trim4" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/FrontRails"]
+z_index = 25
+offset_left = 996.0
+offset_top = 589.0
+offset_right = 1152.0
+offset_bottom = 594.0
+color = Color(0.17254902, 0.24313726, 0.38039216, 1)
+
+[node name="Pitch" type="Parallax2D" parent="EndlessRunnerScreenView/ScrollingForeground"]
+scroll_scale = Vector2(0.99, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="StadiumPitch" type="Sprite2D" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch"]
+position = Vector2(1152, 344)
+texture = SubResource("CompressedTexture2D_yq6so")
+
+[node name="ColorRect3" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch"]
+offset_top = 603.0
+offset_right = 1152.0
+offset_bottom = 607.0
+color = Color(0.30955997, 0.55645275, 0.14377064, 1)
+
+[node name="Shadow1" type="Node2D" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch"]
+position = Vector2(0, -1)
+
+[node name="ColorRect" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch/Shadow1"]
+offset_left = 129.0
+offset_top = 588.0
+offset_right = 150.0
+offset_bottom = 597.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch/Shadow1"]
+offset_left = 133.0
+offset_top = 590.0
+offset_right = 146.0
+offset_bottom = 599.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch/Shadow1"]
+offset_left = 131.0
+offset_top = 588.0
+offset_right = 148.0
+offset_bottom = 598.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch/Shadow1"]
+offset_left = 129.0
+offset_top = 587.0
+offset_right = 150.0
+offset_bottom = 596.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="ColorRect6" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch/Shadow1"]
+offset_left = 136.0
+offset_top = 591.0
+offset_right = 143.0
+offset_bottom = 600.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="Shadow2" type="Node2D" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch"]
+position = Vector2(438, -1)
+
+[node name="ColorRect" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch/Shadow2"]
+offset_left = 129.0
+offset_top = 588.0
+offset_right = 150.0
+offset_bottom = 597.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch/Shadow2"]
+offset_left = 133.0
+offset_top = 590.0
+offset_right = 146.0
+offset_bottom = 599.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch/Shadow2"]
+offset_left = 131.0
+offset_top = 588.0
+offset_right = 148.0
+offset_bottom = 598.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch/Shadow2"]
+offset_left = 129.0
+offset_top = 587.0
+offset_right = 150.0
+offset_bottom = 596.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="ColorRect6" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch/Shadow2"]
+offset_left = 136.0
+offset_top = 591.0
+offset_right = 143.0
+offset_bottom = 600.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="Shadow3" type="Node2D" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch"]
+position = Vector2(849, -1)
+
+[node name="ColorRect" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch/Shadow3"]
+offset_left = 129.0
+offset_top = 588.0
+offset_right = 150.0
+offset_bottom = 597.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch/Shadow3"]
+offset_left = 133.0
+offset_top = 590.0
+offset_right = 146.0
+offset_bottom = 599.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch/Shadow3"]
+offset_left = 131.0
+offset_top = 588.0
+offset_right = 148.0
+offset_bottom = 598.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch/Shadow3"]
+offset_left = 129.0
+offset_top = 587.0
+offset_right = 150.0
+offset_bottom = 596.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="ColorRect6" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch/Shadow3"]
+offset_left = 136.0
+offset_top = 591.0
+offset_right = 143.0
+offset_bottom = 600.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="EndlessRunnerScreenView/ScrollingForeground/Pitch"]
+offset_left = -9.0
+offset_top = 582.0
+offset_right = 1153.0
+offset_bottom = 591.0
+color = Color(0.34117648, 0.39607844, 0.47843137, 1)
+
+[node name="Title" type="TextureRect" parent="."]
+z_as_relative = false
+offset_left = 312.0
+offset_right = 572.0
+offset_bottom = 140.0
+scale = Vector2(2, 2)
+texture = ExtResource("7_jscy8")
+
+[node name="Buttons" type="Node2D" parent="."]
+
+[node name="PlayButton" type="Button" parent="Buttons"]
+z_index = 3
+z_as_relative = false
+offset_left = 438.0
+offset_top = 244.0
+offset_right = 711.0
+offset_bottom = 381.0
+size_flags_horizontal = 0
+theme = ExtResource("4_jscy8")
+icon = ExtResource("6_o6xl0")
+flat = true
+icon_alignment = 1
+
+[node name="SettingsButton" type="Button" parent="Buttons"]
+z_index = 5
+offset_left = 188.00002
+offset_top = 344.0
+offset_right = 461.0
+offset_bottom = 481.0
+scale = Vector2(0.9, 0.9)
+size_flags_horizontal = 0
+theme = ExtResource("4_jscy8")
+icon = ExtResource("7_tipki")
+flat = true
+icon_alignment = 1
+
+[node name="TutorialButton" type="Button" parent="Buttons"]
+z_index = 5
+offset_left = 720.0
+offset_top = 360.00003
+offset_right = 1158.0
+offset_bottom = 488.00003
+scale = Vector2(0.7, 0.7)
+size_flags_horizontal = 0
+theme = ExtResource("4_jscy8")
+icon = SubResource("AnimatedTexture_chjal")
+flat = true
+icon_alignment = 1
+
+[node name="RankingsButton" type="Button" parent="Buttons"]
+z_index = 2
+offset_left = 891.0
+offset_top = 255.0
+offset_right = 1173.0
+offset_bottom = 312.0
+scale = Vector2(0.7, 0.7)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_vxglm")
+icon = SubResource("AnimatedTexture_pm3ni")
+flat = true
+
+[node name="TrophyButton1" type="Button" parent="Buttons"]
+z_index = 2
+offset_left = 1063.0
+offset_top = 254.0
+offset_right = 1133.0001
+offset_bottom = 321.14285
+theme_override_styles/focus = SubResource("StyleBoxEmpty_vxglm")
+icon = SubResource("AnimatedTexture_tel4y")
+flat = true
+
+[node name="TrophyButton2" type="Button" parent="Buttons"]
+z_index = 2
+offset_left = 852.0
+offset_top = 253.0
+offset_right = 924.0
+offset_bottom = 325.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_vxglm")
+icon = SubResource("AnimatedTexture_tel4y")
+flat = true
+
+[node name="Credits" type="Node2D" parent="."]
+
+[node name="CreditsHeader" type="Label" parent="Credits"]
+z_index = 20
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 152.0
+offset_top = 496.0
+offset_right = 560.0
+offset_bottom = 584.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_jscy8")
+theme_override_colors/font_color = Color(0.92156863, 0.9529412, 1, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 20
+text = "GitHub GameOff 2025"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CreditsHeader2" type="Label" parent="Credits"]
+z_index = 20
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 616.0
+offset_top = 498.0
+offset_right = 832.0
+offset_bottom = 538.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_jscy8")
+theme_override_colors/font_color = Color(0.91764706, 0.9529412, 1, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 20
+text = "CREATED BY"
+vertical_alignment = 1
+
+[node name="ProgrammingHeader" type="Label" parent="Credits"]
+z_index = 20
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 840.0
+offset_top = 504.0
+offset_right = 960.0
+offset_bottom = 528.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_jscy8")
+theme_override_colors/font_color = Color(0.91764706, 0.9529412, 1, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 10
+text = "PROGRAMMING:"
+
+[node name="ProgrammingNames" type="Label" parent="Credits"]
+z_index = 20
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 840.0
+offset_top = 520.0
+offset_right = 952.0
+offset_bottom = 544.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_jscy8")
+theme_override_colors/font_color = Color(0.6156863, 0.8156863, 0.972549, 1)
+theme_override_constants/line_spacing = 0
+text = "Conor Wilson"
+vertical_alignment = 1
+
+[node name="ProgrammingNames2" type="Label" parent="Credits"]
+z_index = 20
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 840.0
+offset_top = 552.0
+offset_right = 992.0
+offset_bottom = 576.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_jscy8")
+theme_override_colors/font_color = Color(0.6156863, 0.8156863, 0.972549, 1)
+theme_override_constants/line_spacing = 0
+text = "Emmet Winter"
+vertical_alignment = 1
+
+[node name="ProgrammingNames3" type="Label" parent="Credits"]
+z_index = 20
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 840.0
+offset_top = 536.0
+offset_right = 992.0
+offset_bottom = 560.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_jscy8")
+theme_override_colors/font_color = Color(0.6156863, 0.8156863, 0.972549, 1)
+theme_override_constants/line_spacing = 0
+text = "Sankha Peiris"
+vertical_alignment = 1
+
+[node name="ArtHeader" type="Label" parent="Credits"]
+z_index = 20
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 616.0
+offset_top = 552.0
+offset_right = 744.0
+offset_bottom = 576.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_jscy8")
+theme_override_colors/font_color = Color(0.91764706, 0.9529412, 1, 1)
+theme_override_constants/line_spacing = 0
+text = "ART:"
+vertical_alignment = 1
+
+[node name="ArtName" type="Label" parent="Credits"]
+z_index = 20
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 712.0
+offset_top = 552.0
+offset_right = 840.0
+offset_bottom = 576.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_jscy8")
+theme_override_colors/font_color = Color(0.6156863, 0.8156863, 0.972549, 1)
+theme_override_constants/line_spacing = 0
+text = "Evie Winter"
+vertical_alignment = 1
+
+[node name="ProductionHeader" type="Label" parent="Credits"]
+z_index = 20
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 616.0
+offset_top = 536.0
+offset_right = 720.0
+offset_bottom = 560.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_jscy8")
+theme_override_colors/font_color = Color(0.91764706, 0.9529412, 1, 1)
+theme_override_constants/line_spacing = 0
+text = "PRODUCTION:"
+vertical_alignment = 1
+
+[node name="ProductionName" type="Label" parent="Credits"]
+z_index = 20
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 712.0
+offset_top = 536.0
+offset_right = 840.0
+offset_bottom = 560.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_jscy8")
+theme_override_colors/font_color = Color(0.6156863, 0.8156863, 0.972549, 1)
+theme_override_constants/line_spacing = 0
+text = "Jay Arbuthnot"
+vertical_alignment = 1
+
+[node name="PauseMenu" parent="." instance=ExtResource("8_tipki")]
+visible = false
+z_index = 80
+offset_left = 327.0
+offset_top = 220.0
+offset_right = 842.0
+offset_bottom = 255.0
+
+[node name="DarkenColorRect" parent="PauseMenu" index="0"]
+offset_left = -327.0
+offset_top = -220.0
+offset_right = 825.0
+offset_bottom = 428.0
+
+[node name="BackgroundRect" parent="PauseMenu" index="1"]
+offset_left = -63.0
+offset_top = -47.434998
+offset_right = -266.0
+offset_bottom = 77.565
+scale = Vector2(2, 2)
+
+[node name="HeaderTextureRect" parent="PauseMenu" index="2"]
+offset_left = -212.60974
+offset_top = -124.0
+offset_right = 52.39026
+offset_bottom = 5.0
+
+[node name="VBoxContainer" parent="PauseMenu" index="3"]
+offset_left = -296.5
+offset_top = 18.5
+offset_right = 22.99585
+offset_bottom = 146.5
+
+[node name="QuitButton" parent="PauseMenu/VBoxContainer/HBoxContainer2" index="0"]
+visible = false
+
+[node name="RestartButton" parent="PauseMenu/VBoxContainer/HBoxContainer2" index="1"]
+visible = false
+
+[node name="ClosePopupButton" parent="PauseMenu" index="4"]
+offset_left = -26.0
+offset_top = -28.0
+offset_right = 22.0
+offset_bottom = 19.999992
+
+[node name="TutorialPopup" parent="." instance=ExtResource("17_muem4")]
+visible = false
+offset_left = 920.0
+offset_top = 544.0
+offset_right = 1389.185
+offset_bottom = 723.955
+
+[node name="LeaderboardPopup" parent="." instance=ExtResource("16_jbj1t")]
+visible = false
+
+[connection signal="column_exited_screen" from="EndlessRunnerScreenView/Crowd" to="EndlessRunnerScreenView" method="_on_crowd_column_exited_screen"]
+[connection signal="new_column_spawned" from="EndlessRunnerScreenView/Crowd" to="EndlessRunnerScreenView" method="_on_crowd_new_column_spawned"]
+[connection signal="mouse_entered" from="Buttons/PlayButton" to="." method="_on_play_button_mouse_entered"]
+[connection signal="mouse_exited" from="Buttons/PlayButton" to="." method="_on_play_button_mouse_exited"]
+[connection signal="mouse_entered" from="Buttons/SettingsButton" to="." method="_on_settings_button_mouse_entered"]
+[connection signal="mouse_exited" from="Buttons/SettingsButton" to="." method="_on_settings_button_mouse_exited"]
+[connection signal="mouse_entered" from="Buttons/TutorialButton" to="." method="_on_tutorial_button_mouse_entered"]
+[connection signal="mouse_exited" from="Buttons/TutorialButton" to="." method="_on_tutorial_button_mouse_exited"]
+[connection signal="mouse_entered" from="Buttons/RankingsButton" to="." method="_on_rankings_button_mouse_entered"]
+[connection signal="mouse_exited" from="Buttons/RankingsButton" to="." method="_on_rankings_button_mouse_exited"]
+[connection signal="pressed" from="Buttons/RankingsButton" to="." method="_on_rankings_button_pressed"]
+[connection signal="mouse_entered" from="Buttons/TrophyButton1" to="." method="_on_rankings_button_mouse_entered"]
+[connection signal="mouse_exited" from="Buttons/TrophyButton1" to="." method="_on_rankings_button_mouse_exited"]
+[connection signal="pressed" from="Buttons/TrophyButton1" to="." method="_on_rankings_button_pressed"]
+[connection signal="mouse_entered" from="Buttons/TrophyButton2" to="." method="_on_rankings_button_mouse_entered"]
+[connection signal="mouse_exited" from="Buttons/TrophyButton2" to="." method="_on_rankings_button_mouse_exited"]
+[connection signal="pressed" from="Buttons/TrophyButton2" to="." method="_on_rankings_button_pressed"]
+
+[editable path="PauseMenu"]

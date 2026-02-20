@@ -1,0 +1,19 @@
+{
+	"name": "mexican-wave-backend",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^5.1.0",
+		"mongodb": "^6.5.0",
+		"ulid": "^3.0.2"
+	},
+	"devDependencies": {
+		"wrangler": "^4.50.0"
+	}
+}

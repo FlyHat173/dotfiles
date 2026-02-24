@@ -42,6 +42,7 @@ exec --no-startup-id fcitx5
 exec --no-startup-id ~/.local/bin/autotiling
 exec --no-startup-id wl-paste --watch cliphist store
 exec --no-startup-id dunst
+exec --no-startup-id xinput set-prop 10 "libinput Accel Speed" -0.7
 
 
 

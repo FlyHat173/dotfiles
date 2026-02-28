@@ -194,7 +194,7 @@ bindsym $mod+r mode "resize"
 #custom menu
 bindsym $mod+Shift+b exec systemctl poweroff
 
-bindsym $mod+p exec rofi -modi "clipboard:cliphist list" -show clipboard -run-command '{cmd}'
+bindsym $mod+p exec pavucontrol
 
 bindsym $mod+q exec dolphin
 

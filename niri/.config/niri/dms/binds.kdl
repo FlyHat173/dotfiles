@@ -1,0 +1,4 @@
+binds {
+    Super+Alt+L hotkey-overlay-title="Lock Screen" { spawn "dms" "ipc" "call" "lock" "lock"; }
+    Mod+D { spawn "fuzzel"; }
+}

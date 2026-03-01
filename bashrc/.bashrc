@@ -149,6 +149,7 @@ alias nvi='nvim'
 alias notes='stickynotes'
 alias code='emacs'
 alias file='ranger'
+alias noctalia-shell='/usr/bin/qs -c noctalia-shell'
 
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH

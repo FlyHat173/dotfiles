@@ -369,7 +369,7 @@ binds {
 
     //customize
     Super+E { spawn "zen"; }
-    Shift+S { spawn "dolphin"; }
+    Mod+Shift+S { spawn "dolphin"; }
 
 
 

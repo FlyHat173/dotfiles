@@ -1,8 +1,15 @@
 {
   "currentThemeName": "custom",
   "currentThemeCategory": "registry",
-  "customThemeFile": "/home/yeah/.config/DankMaterialShell/themes/crimsonVoltage/theme.json",
-  "registryThemeVariants": {},
+  "customThemeFile": "/home/yeah/.config/DankMaterialShell/themes/catppuccin/theme.json",
+  "registryThemeVariants": {
+    "catppuccin": {
+      "dark": {
+        "flavor": "mocha",
+        "accent": "mauve"
+      }
+    }
+  },
   "matugenScheme": "scheme-tonal-spot",
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
@@ -386,12 +393,21 @@
       "leftWidgets": [
         "launcherButton",
         "workspaceSwitcher",
-        "focusedWindow"
+        {
+          "id": "focusedWindow",
+          "enabled": true
+        }
       ],
       "centerWidgets": [
-        "music",
+        {
+          "id": "music",
+          "enabled": true
+        },
         "clock",
-        "weather"
+        {
+          "id": "weather",
+          "enabled": true
+        }
       ],
       "rightWidgets": [
         "systemTray",
@@ -436,7 +452,8 @@
       "shadowOpacity": 60,
       "shadowColorMode": "text",
       "shadowCustomColor": "#000000",
-      "clickThrough": false
+      "clickThrough": false,
+      "widgetPadding": 8
     }
   ],
   "desktopClockEnabled": false,

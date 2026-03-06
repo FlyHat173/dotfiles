@@ -150,6 +150,7 @@ alias notes='stickynotes'
 alias code='emacs'
 alias file='ranger'
 alias calc='qalc'
+alias q='qalc'
 
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH

@@ -371,6 +371,7 @@ binds {
     Super+E { spawn "zen"; }
     Mod+Shift+S { spawn "dolphin"; }
     Mod+Shift+B { spawn "poweroff"; }
+    Mod+P { spawn "pavucontrol"; }
 
 
 

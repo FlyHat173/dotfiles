@@ -270,6 +270,7 @@ layout {
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "fcitx5"
 spawn-at-startup "dunst"
+spawn-at-startup "dms run"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
@@ -369,7 +370,7 @@ binds {
 
     //customize
     Super+E { spawn "zen"; }
-    Mod+Shift+S { spawn "dolphin"; }
+    Mod+S { spawn "dolphin"; }
     Mod+Shift+B { spawn "poweroff"; }
     Mod+P { spawn "pavucontrol"; }
 

@@ -24,7 +24,7 @@ font pango:Fira_Code_v6.2 14
 exec --no-startup-id dex-autostart --autostart --environment i3
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 exec_always --no-startup-id killall polybar
-exec_always --no-startup-id feh --bg-scale ~/dotfiles/image/9000085.jpg
+exec_always --no-startup-id feh --bg-scale ~/dotfiles/image/black-hole.png
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
@@ -39,7 +39,6 @@ exec_always --no-startup-id feh --bg-scale ~/dotfiles/image/9000085.jpg
 exec --no-startup-id nm-applet
 exec --no-startup-id picom
 exec --no-startup-id fcitx5
-exec --no-startup-id ~/.local/bin/autotiling
 exec --no-startup-id wl-paste --watch cliphist store
 exec --no-startup-id dunst
 exec --no-startup-id xinput set-prop 10 "libinput Accel Speed" -0.7
@@ -64,7 +63,7 @@ floating_modifier $mod
 bindsym $mod+Return exec kitty
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -show drun
@@ -196,7 +195,7 @@ bindsym $mod+Shift+b exec systemctl poweroff
 
 bindsym $mod+p exec pavucontrol
 
-bindsym $mod+q exec dolphin
+bindsym $mod+Shift+q exec dolphin
 
 bindsym $mod+c exec --no-startup-id i3lock \
   --blur 8 \
@@ -215,3 +214,4 @@ bindsym $mod+c exec --no-startup-id i3lock \
 
 bindsym $mod+Print exec flameshot gui
 bindsym $mod+v exec zen
+workspace_layout tabbed

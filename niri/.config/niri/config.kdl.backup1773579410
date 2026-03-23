@@ -270,7 +270,7 @@ layout {
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "fcitx5"
 spawn-at-startup "dunst"
-spawn-at-startup "qs" "-c" "/etc/xdg/quickshell/noctalia-shell"
+spawn-at-startup "dms run"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
@@ -366,6 +366,7 @@ binds {
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
+    Super+Alt+L { spawn "loginctl lock-session"; }
 
     //customize
     Super+E { spawn "zen"; }
@@ -632,5 +633,3 @@ binds {
     Mod+Shift+P { power-off-monitors; }
 }
 include "dms/binds.kdl"
-
-include "dms/windowrules.kdl"

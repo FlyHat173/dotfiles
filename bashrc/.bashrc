@@ -161,3 +161,4 @@ eval "$(starship init bash)"
 eval "$(zoxide init bash)"
 
 . "$HOME/.cargo/env"
+export PATH=$HOME/.npm-global/bin:$PATH

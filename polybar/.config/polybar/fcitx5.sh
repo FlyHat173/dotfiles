@@ -4,7 +4,7 @@ case "$(fcitx5-remote -n)" in
   keyboard-us)
     echo "🇺🇸 EN"
     ;;
-  unikey)
+  vnkey)
     echo "🇻🇳 VI"
     ;;
 esac

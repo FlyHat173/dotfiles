@@ -151,6 +151,7 @@ alias code='emacs'
 alias file='ranger'
 alias calc='qalc'
 alias q='qalc'
+alias nf='nvim $(fzf)'
 
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH

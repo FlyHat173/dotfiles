@@ -37,15 +37,13 @@ exec_always --no-startup-id feh --bg-scale ~/dotfiles/image/black-hole.png
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
+exec --no-startup-id blueman-applet
 exec --no-startup-id picom
 exec --no-startup-id fcitx5
 exec --no-startup-id wl-paste --watch cliphist store
 exec --no-startup-id dunst
-exec --no-startup-id xinput set-prop 10 "libinput Accel Speed" -0.7
-exec --no-startup-id xinput set-prop 10 "libinput Accel Profile Enabled" 1, 0
-exec --no-startup-id xinput set-prop 10 "libinput Accel Speed" 0.25
-
-
+exec --no-startup-id sh -c "sleep 2 && xinput set-prop 'Tên thiết bị' 'libinput Accel Profile Enabled' 1, 0"
+exec --no-startup-id sh -c "sleep 2 && xinput set-prop 'Tên thiết bị' 'libinput Accel Speed' 0.25"
 
 
 # Use pactl to adjust volume in PulseAudio.

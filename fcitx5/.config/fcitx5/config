@@ -32,8 +32,7 @@ ModifierOnlyKeyTimeout=250
 
 [Hotkey/TriggerKeys]
 0=Hangul
-1=Alt+space
-2=Alt+space
+1=Control+Shift+Control_L
 
 [Behavior]
 # Active By Default

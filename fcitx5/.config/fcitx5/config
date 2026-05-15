@@ -32,7 +32,7 @@ ModifierOnlyKeyTimeout=250
 
 [Hotkey/TriggerKeys]
 0=Hangul
-1=Control+Shift+Control_L
+1=Shift+Tab
 
 [Behavior]
 # Active By Default

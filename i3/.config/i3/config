@@ -214,4 +214,4 @@ bindsym $mod+c exec --no-startup-id i3lock \
 
 bindsym $mod+Print exec flameshot gui
 bindsym $mod+v exec firefox
-workspace_layout tabbed
+workspace_layout toggle split

@@ -9,4 +9,4 @@ script="$SCRIPTS_DIR/$chosen"
 chmod +x "$script"
 
 # i3-sensible-terminal tự chọn terminal bạn đang dùng
-i3-sensible-terminal -e bash -c "$script; echo; read -rp 'Nhấn Enter để đóng...'"
+i3-sensible-terminal -e bash -c "$script; echo; read -rp 'touch Enter to close tab...'"

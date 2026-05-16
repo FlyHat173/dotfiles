@@ -215,3 +215,5 @@ bindsym $mod+c exec --no-startup-id i3lock \
 bindsym $mod+Print exec flameshot gui
 bindsym $mod+v exec firefox
 workspace_layout default
+bindsym $mod+b exec ~/dotfiles/run-script.sh
+

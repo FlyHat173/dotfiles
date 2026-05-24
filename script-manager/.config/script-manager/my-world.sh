@@ -1,4 +1,4 @@
-#!/bin/bash
+!#/bin/bash
 
 cd ~/.minetest/worlds/world1
 git add .

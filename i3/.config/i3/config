@@ -44,6 +44,7 @@ exec --no-startup-id wl-paste --watch cliphist store
 exec --no-startup-id dunst
 exec --no-startup-id sh -c "sleep 2 && xinput set-prop 'Tên thiết bị' 'libinput Accel Profile Enabled' 1, 0"
 exec --no-startup-id sh -c "sleep 2 && xinput set-prop 'Tên thiết bị' 'libinput Accel Speed' 0.25"
+exec --no-startup-id podman start zalo-tg
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status

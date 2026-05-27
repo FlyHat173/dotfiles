@@ -24,7 +24,7 @@ font pango:Fira_Code_v6.2 14
 exec --no-startup-id dex-autostart --autostart --environment i3
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 exec_always --no-startup-id killall polybar
-exec_always --no-startup-id feh --bg-scale ~/dotfiles/image/wp5697521-cut-the-rope-wallpapers.jpg
+exec_always --no-startup-id feh --bg-scale ~/dotfiles/image/gargantua-black-3840x2160-9621.jpg
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
@@ -44,7 +44,6 @@ exec --no-startup-id wl-paste --watch cliphist store
 exec --no-startup-id dunst
 exec --no-startup-id sh -c "sleep 2 && xinput set-prop 'Tên thiết bị' 'libinput Accel Profile Enabled' 1, 0"
 exec --no-startup-id sh -c "sleep 2 && xinput set-prop 'Tên thiết bị' 'libinput Accel Speed' 0.25"
-exec --no-startup-id podman start zalo-tg
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status

@@ -163,3 +163,4 @@ eval "$(zoxide init bash)"
 
 . "$HOME/.cargo/env"
 export PATH=$HOME/.npm-global/bin:$PATH
+export PATH=$PATH:$(go env GOPATH)/bin

@@ -194,7 +194,7 @@ bindsym $mod+Shift+b exec systemctl poweroff
 
 bindsym $mod+p exec pavucontrol
 
-bindsym $mod+t exec dolphin
+bindsym $mod+t exec nautilus
 
 bindsym $mod+c exec --no-startup-id i3lock \
   --blur 8 \

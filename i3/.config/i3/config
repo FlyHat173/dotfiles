@@ -213,7 +213,7 @@ bindsym $mod+c exec --no-startup-id i3lock \
   --separator-color=00000000
 
 bindsym $mod+Print exec flameshot gui
-bindsym $mod+v exec flatpak run com.brave.Browser
+bindsym $mod+v exec firefox
 workspace_layout default
 bindsym $mod+b exec ~/dotfiles/run-script.sh
 bindsym $mod+n exec --no-startup-id flatpak run net.cozic.joplin_desktop

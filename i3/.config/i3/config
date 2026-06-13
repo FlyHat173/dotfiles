@@ -217,3 +217,4 @@ bindsym $mod+v exec firefox
 workspace_layout default
 bindsym $mod+b exec ~/dotfiles/run-script.sh
 bindsym $mod+n exec --no-startup-id flatpak run net.cozic.joplin_desktop
+bindsym $mod+g exec keepassxc 

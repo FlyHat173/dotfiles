@@ -14,18 +14,9 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-python.python",
-        "ms-python.vscode-pylance",
-        "esbenp.prettier-vscode",
-        "dbaeumer.vscode-eslint",
-        "ms-vscode.makefile-tools",
-        "redhat.vscode-yaml",
-        "eamodio.gitlens",
+        "vscodevim.vim",
         "ms-vscode-remote.remote-containers",
-        "gleam.gleam",
-        "GDQuest.gdscript-toolkit",
-        "ms-vscode.cpptools",
-        "ms-vscode.live-server"
+        "github.github-vscode-theme",
       ],
       "settings": {
         "python.linting.enabled": true,

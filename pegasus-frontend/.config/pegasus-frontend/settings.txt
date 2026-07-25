@@ -1,4 +1,4 @@
-general.theme: themes/Minimis-master/
+general.theme: themes/COLORFUL-main/
 general.verify-files: true
 general.input-mouse-support: true
 general.fullscreen: true

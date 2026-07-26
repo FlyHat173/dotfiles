@@ -146,10 +146,9 @@ function y() {
 export EDITOR="nvim"
 export VISUAL="nvim"
 alias nvi='nvim'
-alias file='ranger'
 alias calc='qalc'
 alias q='qalc'
-alias nf='nvim $(fzf)'
+alias vi='vim'
 
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH

@@ -1,352 +1,200 @@
-2026-07-25T19:54:09 [i] Pegasus alpha16-82-gc3462e68 (2024-09-16)
-2026-07-25T19:54:09 [i] Running on Fedora Linux 42 (Workstation Edition) (x86_64, xcb)
-2026-07-25T19:54:09 [i] Qt version 5.15.12
-2026-07-25T19:54:09 [i] Program settings loaded (`/home/yeah/.config/pegasus-frontend/settings.txt`)
-2026-07-25T19:54:09 [i] Found locale `ar`
-2026-07-25T19:54:09 [i] Found locale `bs`
-2026-07-25T19:54:09 [i] Found locale `ca`
-2026-07-25T19:54:09 [i] Found locale `de`
-2026-07-25T19:54:09 [i] Found locale `en-GB`
-2026-07-25T19:54:09 [i] Found locale `en`
-2026-07-25T19:54:09 [i] Found locale `es`
-2026-07-25T19:54:09 [i] Found locale `fr`
-2026-07-25T19:54:09 [i] Found locale `hu`
-2026-07-25T19:54:09 [i] Found locale `it`
-2026-07-25T19:54:09 [i] Found locale `ja`
-2026-07-25T19:54:09 [i] Found locale `ko`
-2026-07-25T19:54:09 [i] Found locale `lt`
-2026-07-25T19:54:09 [i] Found locale `nl`
-2026-07-25T19:54:09 [i] Found locale `pt-BR`
-2026-07-25T19:54:09 [i] Found locale `ru`
-2026-07-25T19:54:09 [i] Found locale `zh-TW`
-2026-07-25T19:54:09 [i] Found locale `zh`
-2026-07-25T19:54:09 [i] Locale set to `en`
-2026-07-25T19:54:09 [i] Found theme `Pegasus Grid` at `:/themes/pegasus-theme-grid/`
-2026-07-25T19:54:09 [i] Found theme `Colorful` at `/home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/`
-2026-07-25T19:54:09 [i] SDL version 2.0.20
-2026-07-25T19:54:09 [i] Theme set to `Colorful` (`/home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/`)
-2026-07-25T19:54:09 [i] Pegasus Metafiles: Found `/home/yeah/Sync/multimedia files/retro games/rom/metadata.pegasus.txt`
-2026-07-25T19:54:09 [i] Pegasus Metafiles: Finished searching in 0ms
-2026-07-25T19:54:09 [i] Pegasus Media: Finished searching in 0ms
-2026-07-25T19:54:09 [i] Steam: Found installation at `/home/yeah/.local/share/Steam/`
-2026-07-25T19:54:09 [i] Steam: Found `/home/yeah/.local/share/Steam/config/config.vdf`
-2026-07-25T19:54:09 [i] Steam: Found `/home/yeah/.local/share/Steam/steamapps/libraryfolders.vdf`
-2026-07-25T19:54:09 [i] Steam: 3 games found
-2026-07-25T19:54:09 [i] Steam: Finished searching in 5ms
-2026-07-25T19:54:09 [i] GOG: 0 games found
-2026-07-25T19:54:09 [i] GOG: Finished searching in 0ms
-2026-07-25T19:54:09 [i] EmulationStation: No installation found
-2026-07-25T19:54:09 [i] EmulationStation: Finished searching in 0ms
-2026-07-25T19:54:09 [i] Logiqx: Finished searching in 0ms
-2026-07-25T19:54:09 [i] Lutris: No installation found
-2026-07-25T19:54:09 [i] Lutris: Finished searching in 0ms
-2026-07-25T19:54:09 [i] Skraper Assets: 0 assets found
-2026-07-25T19:54:09 [i] Skraper Assets: Finished searching in 0ms
-2026-07-25T19:54:09 [i] Pegasus Favorites: Finished searching in 0ms
-2026-07-25T19:54:09 [i] Pegasus Playtime: Finished searching in 0ms
-2026-07-25T19:54:09 [i] Waiting for online sources...
-2026-07-25T19:54:09 [i] Waiting for online sources took 456ms
-2026-07-25T19:54:09 [w] The collection 'GOG' has no valid games, ignored
-2026-07-25T19:54:09 [i] Game list post-processing took 0ms
-2026-07-25T19:54:09 [i] 28 games found
-2026-07-25T19:54:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:241:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/stars/undefined.png
-2026-07-25T19:54:10 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:706:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/stars/undefined.png
-2026-07-25T19:54:10 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/theme.qml:201: ReferenceError: Screen is not defined
-2026-07-25T19:54:10 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/theme.qml:200: ReferenceError: Screen is not defined
-2026-07-25T19:54:10 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:764: ReferenceError: favoritesOnTop is not defined
-2026-07-25T19:54:10 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:514: ReferenceError: favoritesOnTop is not defined
-2026-07-25T19:54:10 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Settings.qml:78: ReferenceError: currentSettingsIndex is not defined
-2026-07-25T19:54:10 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Settings.qml:79: Error: Invalid write to global property "currentSettingsIndex"
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Collections.qml:318:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/devices/lastplayed.png
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:492: TypeError: Cannot read property 'developer' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:479: TypeError: Cannot read property 'players' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:457: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:441: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:433: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:309: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:275: TypeError: Cannot read property 'description' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:11: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:218: TypeError: Cannot read property 'title' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:193: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:173: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:353: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:368: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:13: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:649: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:556: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:530: TypeError: Cannot read property 'description' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:511: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:504: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:476: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:440: TypeError: Cannot read property 'title' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:341: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:197: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:170: TypeError: Cannot read property 'title' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:376: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:11 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:403: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:492: TypeError: Cannot read property 'developer' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:479: TypeError: Cannot read property 'players' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:457: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:441: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:433: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:309: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:275: TypeError: Cannot read property 'description' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:11: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:218: TypeError: Cannot read property 'title' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:193: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:173: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:353: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:368: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:13: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:649: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:556: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:530: TypeError: Cannot read property 'description' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:511: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:504: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:476: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:440: TypeError: Cannot read property 'title' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:341: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:197: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:170: TypeError: Cannot read property 'title' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:376: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:403: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:54:14 [i] Executing command: [`flatpak`,`run`,`org.libretro.RetroArch`,`-L`,`/home/yeah/.var/app/org.libretro.RetroArch/config/retroarch/cores/flycast_libretro.so`,`/home/yeah/Sync/multimedia files/retro games/rom/dreamcast/Marvel vs. Capcom 2 (USA)/Marvel vs. Capcom 2 (USA).gdi`]
-2026-07-25T19:54:14 [i] Working directory: `/home/yeah/Sync/multimedia files/retro games/rom/dreamcast/Marvel vs. Capcom 2 (USA)`
-2026-07-25T19:54:14 [i] Process 77388 started
-2026-07-25T19:54:14 [i] ----------------------------------------
-2026-07-25T19:57:06 [i] ----------------------------------------
-2026-07-25T19:57:06 [i] The external program has finished cleanly
-2026-07-25T19:57:06 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:241:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/stars/undefined.png
-2026-07-25T19:57:06 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:706:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/stars/undefined.png
-2026-07-25T19:57:06 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/theme.qml:201: ReferenceError: Screen is not defined
-2026-07-25T19:57:06 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/theme.qml:200: ReferenceError: Screen is not defined
-2026-07-25T19:57:06 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:764: ReferenceError: favoritesOnTop is not defined
-2026-07-25T19:57:06 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:514: ReferenceError: favoritesOnTop is not defined
-2026-07-25T19:57:06 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Settings.qml:78: ReferenceError: currentSettingsIndex is not defined
-2026-07-25T19:57:06 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Settings.qml:79: Error: Invalid write to global property "currentSettingsIndex"
-2026-07-25T19:57:07 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Collections.qml:318:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/devices/lastplayed.png
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:492: TypeError: Cannot read property 'developer' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:479: TypeError: Cannot read property 'players' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:457: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:441: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:433: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:309: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:275: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:11: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:218: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:193: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:173: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:353: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:368: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:13: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:649: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:556: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:530: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:511: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:504: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:476: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:440: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:341: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:197: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:170: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:376: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:08 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:403: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:492: TypeError: Cannot read property 'developer' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:479: TypeError: Cannot read property 'players' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:457: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:441: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:433: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:309: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:275: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:11: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:218: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:193: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:173: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:353: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:368: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:13: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:649: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:556: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:530: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:511: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:504: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:476: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:440: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:341: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:197: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:170: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:376: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:09 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:403: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:12 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Collections.qml:102:5: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/logos/Dark - Color/default.png
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:492: TypeError: Cannot read property 'developer' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:479: TypeError: Cannot read property 'players' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:457: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:441: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:433: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:309: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:275: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:11: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:218: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:193: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:173: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:353: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:368: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:13: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:649: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:556: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:530: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:511: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:504: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:476: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:440: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:341: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:197: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:170: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:376: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:13 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:403: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:492: TypeError: Cannot read property 'developer' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:479: TypeError: Cannot read property 'players' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:457: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:441: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:433: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:309: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:275: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:11: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:218: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:193: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:173: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:353: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:368: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:13: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:649: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:556: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:530: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:511: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:504: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:476: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:440: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:341: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:197: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:170: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:376: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:14 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:403: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:13: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:649: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:556: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:530: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:511: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:504: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:476: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:440: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:341: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:197: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:170: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:376: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:403: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:13: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:649: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:556: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:530: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:511: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:504: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:476: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:440: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:341: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:197: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:170: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:376: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:403: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:492: TypeError: Cannot read property 'developer' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:479: TypeError: Cannot read property 'players' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:457: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:441: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:433: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:309: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:275: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:11: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:218: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:193: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:173: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:353: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:368: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:13: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:649: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:556: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:530: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:511: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:504: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:476: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:440: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:341: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:197: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:170: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:376: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:403: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Collections.qml:318:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/devices/default.png
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:492: TypeError: Cannot read property 'developer' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:479: TypeError: Cannot read property 'players' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:457: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:441: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:433: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:309: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:275: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:11: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:218: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:193: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:173: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:353: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:368: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:13: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:649: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:556: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:530: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:511: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:504: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:476: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:440: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:341: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:197: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:170: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:376: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:20 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:403: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:492: TypeError: Cannot read property 'developer' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:479: TypeError: Cannot read property 'players' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:457: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:441: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:433: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:309: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:275: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:11: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:218: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:193: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:173: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:353: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:368: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:13: TypeError: Cannot read property 'rating' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:649: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:556: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:530: TypeError: Cannot read property 'description' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:511: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:504: TypeError: Cannot read property 'favorite' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:476: TypeError: Cannot read property 'genre' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:440: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:341: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:197: TypeError: Cannot read property 'releaseYear' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:170: TypeError: Cannot read property 'title' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:376: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:22 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:403: TypeError: Cannot read property 'assets' of null
-2026-07-25T19:57:23 [i] Executing command: [`flatpak`,`run`,`org.libretro.RetroArch`,`-L`,`/home/yeah/.var/app/org.libretro.RetroArch/config/retroarch/cores/mesen-s_libretro.so`,`/home/yeah/Sync/multimedia files/retro games/rom/snes/Nonsense.sfc`]
-2026-07-25T19:57:23 [i] Working directory: `/home/yeah/Sync/multimedia files/retro games/rom/snes`
-2026-07-25T19:57:23 [i] Process 78213 started
-2026-07-25T19:57:23 [i] ----------------------------------------
-2026-07-25T19:57:30 [i] ----------------------------------------
-2026-07-25T19:57:30 [i] The external program has finished cleanly
-2026-07-25T19:57:31 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:241:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/stars/undefined.png
-2026-07-25T19:57:31 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:706:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/stars/undefined.png
-2026-07-25T19:57:31 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/theme.qml:201: ReferenceError: Screen is not defined
-2026-07-25T19:57:31 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/theme.qml:200: ReferenceError: Screen is not defined
-2026-07-25T19:57:31 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:764: ReferenceError: favoritesOnTop is not defined
-2026-07-25T19:57:31 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:514: ReferenceError: favoritesOnTop is not defined
-2026-07-25T19:57:31 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Settings.qml:78: ReferenceError: currentSettingsIndex is not defined
-2026-07-25T19:57:31 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Settings.qml:79: Error: Invalid write to global property "currentSettingsIndex"
-2026-07-25T19:57:31 [i] Closing Pegasus, goodbye!
+2026-07-26T19:11:14 [i] Pegasus alpha16-82-gc3462e68 (2024-09-16)
+2026-07-26T19:11:14 [i] Running on Fedora Linux 42 (Workstation Edition) (x86_64, xcb)
+2026-07-26T19:11:14 [i] Qt version 5.15.12
+2026-07-26T19:11:14 [i] Program settings loaded (`/home/yeah/.config/pegasus-frontend/settings.txt`)
+2026-07-26T19:11:14 [i] Found locale `ar`
+2026-07-26T19:11:14 [i] Found locale `bs`
+2026-07-26T19:11:14 [i] Found locale `ca`
+2026-07-26T19:11:14 [i] Found locale `de`
+2026-07-26T19:11:14 [i] Found locale `en-GB`
+2026-07-26T19:11:14 [i] Found locale `en`
+2026-07-26T19:11:14 [i] Found locale `es`
+2026-07-26T19:11:14 [i] Found locale `fr`
+2026-07-26T19:11:14 [i] Found locale `hu`
+2026-07-26T19:11:14 [i] Found locale `it`
+2026-07-26T19:11:14 [i] Found locale `ja`
+2026-07-26T19:11:14 [i] Found locale `ko`
+2026-07-26T19:11:14 [i] Found locale `lt`
+2026-07-26T19:11:14 [i] Found locale `nl`
+2026-07-26T19:11:14 [i] Found locale `pt-BR`
+2026-07-26T19:11:14 [i] Found locale `ru`
+2026-07-26T19:11:14 [i] Found locale `zh-TW`
+2026-07-26T19:11:14 [i] Found locale `zh`
+2026-07-26T19:11:14 [i] Locale set to `en`
+2026-07-26T19:11:14 [i] Found theme `Pegasus Grid` at `:/themes/pegasus-theme-grid/`
+2026-07-26T19:11:14 [i] Found theme `Colorful` at `/home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/`
+2026-07-26T19:11:14 [i] SDL version 2.0.20
+2026-07-26T19:11:14 [i] Theme set to `Colorful` (`/home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/`)
+2026-07-26T19:11:14 [i] Pegasus Metafiles: Found `/home/yeah/Sync/multimedia files/retro games/rom/metadata.pegasus.txt`
+2026-07-26T19:11:14 [i] Pegasus Metafiles: Finished searching in 2ms
+2026-07-26T19:11:14 [i] Pegasus Media: Finished searching in 0ms
+2026-07-26T19:11:14 [i] Steam: Found installation at `/home/yeah/.local/share/Steam/`
+2026-07-26T19:11:14 [i] Steam: Found `/home/yeah/.local/share/Steam/config/config.vdf`
+2026-07-26T19:11:14 [i] Steam: Found `/home/yeah/.local/share/Steam/steamapps/libraryfolders.vdf`
+2026-07-26T19:11:14 [i] Steam: 3 games found
+2026-07-26T19:11:14 [i] Steam: Finished searching in 5ms
+2026-07-26T19:11:14 [i] GOG: 0 games found
+2026-07-26T19:11:14 [i] GOG: Finished searching in 0ms
+2026-07-26T19:11:14 [i] EmulationStation: No installation found
+2026-07-26T19:11:14 [i] EmulationStation: Finished searching in 0ms
+2026-07-26T19:11:14 [i] Logiqx: Finished searching in 0ms
+2026-07-26T19:11:14 [i] Lutris: No installation found
+2026-07-26T19:11:14 [i] Lutris: Finished searching in 0ms
+2026-07-26T19:11:14 [i] Skraper Assets: 0 assets found
+2026-07-26T19:11:14 [i] Skraper Assets: Finished searching in 0ms
+2026-07-26T19:11:14 [i] Pegasus Favorites: Finished searching in 0ms
+2026-07-26T19:11:14 [i] Pegasus Playtime: Finished searching in 1ms
+2026-07-26T19:11:14 [i] Waiting for online sources...
+2026-07-26T19:11:14 [i] Waiting for online sources took 264ms
+2026-07-26T19:11:14 [w] The collection 'GOG' has no valid games, ignored
+2026-07-26T19:11:14 [i] Game list post-processing took 0ms
+2026-07-26T19:11:14 [i] 28 games found
+2026-07-26T19:11:15 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:241:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/stars/undefined.png
+2026-07-26T19:11:15 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:706:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/stars/undefined.png
+2026-07-26T19:11:15 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Settings.qml:79: Error: Invalid write to global property "currentSettingsIndex"
+2026-07-26T19:11:15 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/theme.qml:201: ReferenceError: Screen is not defined
+2026-07-26T19:11:15 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/theme.qml:200: ReferenceError: Screen is not defined
+2026-07-26T19:11:15 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:764: ReferenceError: favoritesOnTop is not defined
+2026-07-26T19:11:15 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:514: ReferenceError: favoritesOnTop is not defined
+2026-07-26T19:11:15 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Settings.qml:78: ReferenceError: currentSettingsIndex is not defined
+2026-07-26T19:11:16 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Collections.qml:318:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/devices/lastplayed.png
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:492: TypeError: Cannot read property 'developer' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:479: TypeError: Cannot read property 'players' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:457: TypeError: Cannot read property 'releaseYear' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:441: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:433: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:309: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:275: TypeError: Cannot read property 'description' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:11: TypeError: Cannot read property 'rating' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:218: TypeError: Cannot read property 'title' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:193: TypeError: Cannot read property 'genre' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:173: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:353: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:368: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:13: TypeError: Cannot read property 'rating' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:649: TypeError: Cannot read property 'releaseYear' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:556: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:530: TypeError: Cannot read property 'description' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:511: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:504: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:476: TypeError: Cannot read property 'genre' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:440: TypeError: Cannot read property 'title' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:341: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:197: TypeError: Cannot read property 'releaseYear' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:170: TypeError: Cannot read property 'title' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:376: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:403: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:17 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Collections.qml:102:5: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/logos/Dark - Color/default.png
+2026-07-26T19:11:18 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Collections.qml:102:5: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/logos/Dark - Color/default.png
+2026-07-26T19:11:21 [w] GStreamer; Unable to pause - "file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/videos/devices/gba.mp4"
+2026-07-26T19:11:21 [w] GStreamer; Unable to play - "file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/videos/devices/gba.mp4"
+2026-07-26T19:11:22 [w] Error: "Resource not found."
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:492: TypeError: Cannot read property 'developer' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:479: TypeError: Cannot read property 'players' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:457: TypeError: Cannot read property 'releaseYear' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:441: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:433: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:309: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:275: TypeError: Cannot read property 'description' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:11: TypeError: Cannot read property 'rating' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:218: TypeError: Cannot read property 'title' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:193: TypeError: Cannot read property 'genre' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:173: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:353: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:368: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:13: TypeError: Cannot read property 'rating' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:649: TypeError: Cannot read property 'releaseYear' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:556: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:530: TypeError: Cannot read property 'description' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:511: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:504: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:476: TypeError: Cannot read property 'genre' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:440: TypeError: Cannot read property 'title' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:341: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:197: TypeError: Cannot read property 'releaseYear' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:170: TypeError: Cannot read property 'title' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:376: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:23 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:403: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:24 [i] Executing command: [`flatpak`,`run`,`org.libretro.RetroArch`,`-L`,`/home/yeah/.var/app/org.libretro.RetroArch/config/retroarch/cores/mgba_libretro.so`,`/home/yeah/Sync/multimedia files/retro games/rom/gba/Alien Hominid (Europe) (En,Fr,De,Es,It).gba`]
+2026-07-26T19:11:24 [i] Working directory: `/home/yeah/Sync/multimedia files/retro games/rom/gba`
+2026-07-26T19:11:24 [i] Process 30455 started
+2026-07-26T19:11:24 [i] ----------------------------------------
+2026-07-26T19:11:29 [i] ----------------------------------------
+2026-07-26T19:11:29 [i] The external program has finished cleanly
+2026-07-26T19:11:29 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:241:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/stars/undefined.png
+2026-07-26T19:11:29 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:706:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/stars/undefined.png
+2026-07-26T19:11:29 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/theme.qml:201: ReferenceError: Screen is not defined
+2026-07-26T19:11:29 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/theme.qml:200: ReferenceError: Screen is not defined
+2026-07-26T19:11:29 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:764: ReferenceError: favoritesOnTop is not defined
+2026-07-26T19:11:29 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:514: ReferenceError: favoritesOnTop is not defined
+2026-07-26T19:11:29 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Settings.qml:78: ReferenceError: currentSettingsIndex is not defined
+2026-07-26T19:11:29 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Settings.qml:79: Error: Invalid write to global property "currentSettingsIndex"
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Collections.qml:318:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/devices/lastplayed.png
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:492: TypeError: Cannot read property 'developer' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:479: TypeError: Cannot read property 'players' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:457: TypeError: Cannot read property 'releaseYear' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:441: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:433: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:309: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:275: TypeError: Cannot read property 'description' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:11: TypeError: Cannot read property 'rating' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:218: TypeError: Cannot read property 'title' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:193: TypeError: Cannot read property 'genre' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:173: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:353: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:368: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:13: TypeError: Cannot read property 'rating' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:649: TypeError: Cannot read property 'releaseYear' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:556: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:530: TypeError: Cannot read property 'description' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:511: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:504: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:476: TypeError: Cannot read property 'genre' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:440: TypeError: Cannot read property 'title' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:341: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:197: TypeError: Cannot read property 'releaseYear' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:170: TypeError: Cannot read property 'title' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:376: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:30 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:403: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:31 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Collections.qml:102:5: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/logos/Dark - Color/default.png
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:492: TypeError: Cannot read property 'developer' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:479: TypeError: Cannot read property 'players' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:457: TypeError: Cannot read property 'releaseYear' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:441: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:433: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:309: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:275: TypeError: Cannot read property 'description' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:11: TypeError: Cannot read property 'rating' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:218: TypeError: Cannot read property 'title' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:193: TypeError: Cannot read property 'genre' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:173: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:353: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:368: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:13: TypeError: Cannot read property 'rating' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:649: TypeError: Cannot read property 'releaseYear' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:556: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:530: TypeError: Cannot read property 'description' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:511: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:504: TypeError: Cannot read property 'favorite' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:476: TypeError: Cannot read property 'genre' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:440: TypeError: Cannot read property 'title' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:341: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:197: TypeError: Cannot read property 'releaseYear' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:170: TypeError: Cannot read property 'title' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:376: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:32 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:403: TypeError: Cannot read property 'assets' of null
+2026-07-26T19:11:34 [i] Executing command: [`flatpak`,`run`,`org.libretro.RetroArch`,`-L`,`/home/yeah/.var/app/org.libretro.RetroArch/config/retroarch/cores/mgba_libretro.so`,`/home/yeah/Sync/multimedia files/retro games/rom/gba/Apotris.gba`]
+2026-07-26T19:11:34 [i] Working directory: `/home/yeah/Sync/multimedia files/retro games/rom/gba`
+2026-07-26T19:11:34 [i] Process 30572 started
+2026-07-26T19:11:34 [i] ----------------------------------------
+2026-07-26T19:11:46 [i] ----------------------------------------
+2026-07-26T19:11:46 [i] The external program has finished cleanly
+2026-07-26T19:11:46 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:241:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/stars/undefined.png
+2026-07-26T19:11:46 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:706:3: QML Image: Cannot open: file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/assets/images/stars/undefined.png
+2026-07-26T19:11:46 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/theme.qml:201: ReferenceError: Screen is not defined
+2026-07-26T19:11:46 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/theme.qml:200: ReferenceError: Screen is not defined
+2026-07-26T19:11:46 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesWheel.qml:764: ReferenceError: favoritesOnTop is not defined
+2026-07-26T19:11:46 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/GamesList.qml:514: ReferenceError: favoritesOnTop is not defined
+2026-07-26T19:11:46 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Settings.qml:78: ReferenceError: currentSettingsIndex is not defined
+2026-07-26T19:11:46 [w] file:///home/yeah/.config/pegasus-frontend/themes/COLORFUL-main/components/Settings.qml:79: Error: Invalid write to global property "currentSettingsIndex"
+2026-07-26T19:11:47 [i] Closing Pegasus, goodbye!

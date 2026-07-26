@@ -146,8 +146,6 @@ function y() {
 export EDITOR="nvim"
 export VISUAL="nvim"
 alias nvi='nvim'
-alias notes='stickynotes'
-alias code='emacs-lucid'
 alias file='ranger'
 alias calc='qalc'
 alias q='qalc'

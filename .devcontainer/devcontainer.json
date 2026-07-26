@@ -15,7 +15,6 @@
     "vscode": {
       "extensions": [
         "vscodevim.vim",
-        "ms-vscode-remote.remote-containers",
         "github.github-vscode-theme",
       ],
       "settings": {

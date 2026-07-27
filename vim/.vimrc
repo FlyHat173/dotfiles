@@ -30,7 +30,7 @@ colorscheme tokyonight
 nnoremap <C-n> :NERDTreeToggle<CR>
 
 " auto open nerdtree when open vim without any file
-autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
+"autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 
 " terminal will close vim if nerdtree is final window
 autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | quit | endif

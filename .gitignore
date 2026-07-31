@@ -1,3 +1,4 @@
 1.zip
 pegasus-frontend/.config/pegasus-frontend/themes/*.zip
-~/vim/.vim/plugged
+# Vim plugins
+vim/.vim/plugged/

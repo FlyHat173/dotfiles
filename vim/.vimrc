@@ -12,11 +12,6 @@ Plug 'ghifarit53/tokyonight-vim'
 call plug#end()
 
 
-"suggest folder and file
-set wildmenu
-set wildmode=longest:full,full
-
-
 " Set theme
 
 set termguicolors

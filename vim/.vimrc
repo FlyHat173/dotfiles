@@ -8,8 +8,25 @@ Plug 'tpope/vim-sensible'
 Plug 'prettier/vim-prettier'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ghifarit53/tokyonight-vim'
+Plug 'godlygeek/tabular'
+Plug 'preservim/vim-markdown'
+
 
 call plug#end()
+
+
+" config markdown 
+
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_emphasis_multiline = 0
+set conceallevel=2
+let g:vim_markdown_math = 1
+let g:vim_markdown_autowrite = 1
+let g:vim_markdown_auto_extension_ext = 'txt'
+let g:vim_markdown_new_list_item_indent = 0
+let g:vim_markdown_borderless_table = 1
+
+
 
 
 " Set theme

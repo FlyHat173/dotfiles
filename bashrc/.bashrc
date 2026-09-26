@@ -149,6 +149,7 @@ alias nvi='nvim'
 alias calc='qalc'
 alias q='qalc'
 alias vi='vim'
+alias code='zed'
 
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH

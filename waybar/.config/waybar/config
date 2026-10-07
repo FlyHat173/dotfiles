@@ -15,7 +15,6 @@
     "custom/airpods",
     "pulseaudio#source",
     "battery",
-    "clock"
   ],
   "reload_style_on_change": true,
 

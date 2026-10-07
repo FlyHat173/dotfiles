@@ -1,226 +1,187 @@
-/* --- Global Styles --- */
+/* Catppuccin Mocha — waybar style
+ * Clean, minimal, consistent module pills
+ */
+
+@define-color base     #1e1e2e;
+@define-color mantle    #181825;
+@define-color crust     #11111b;
+
+@define-color text      #cdd6f4;
+@define-color subtext0  #a6adc8;
+@define-color subtext1  #bac2de;
+@define-color overlay0  #6c7086;
+
+@define-color surface0  #313244;
+@define-color surface1  #45475a;
+
+@define-color mauve     #cba6f7;
+@define-color lavender  #b4befe;
+@define-color blue      #89b4fa;
+@define-color teal      #94e2d5;
+@define-color green     #a6e3a1;
+@define-color yellow    #f9e2af;
+@define-color peach     #fab387;
+@define-color red       #f38ba8;
+
 * {
-  font-family: 'SF Pro Text', 'Inter', 'Segoe UI, NotoSans Nerd Font', sans-serif;
-  font-size: 13px;
-  min-height: 0;
-  padding-right: 0px;
-  padding-left: 0px;
-  padding-bottom: 0px;
+    all: unset;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
 }
 
-/* --- Waybar Container --- */
-#waybar {
-  background: transparent;
-  color: #c6d0f5;
-  margin: 0px;
-  font-weight: 500;
+window#waybar {
+    background-color: @base;
+    border-bottom: 1px solid @teal;
 }
 
-/* --- Left Modules (Individual, Fully Rounded Blocks - With Horizontal Spacing & Simple Hover) --- */
+tooltip {
+    background-color: @mantle;
+    border: 1px solid @surface0;
+    border-radius: 8px;
+    padding: 6px 10px;
+}
+
+tooltip label {
+    color: @text;
+}
+
+menu {
+    background-color: @mantle;
+    border: 1px solid @surface0;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+menu menuitem {
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: @subtext1;
+}
+
+menu menuitem:hover {
+    background-color: @surface1;
+    color: @subtext0;
+}
+
+/* ---------- shared module pill ---------- */
+
 #workspaces,
-#custom-uptime,
-#cpu {
-  background-color: #1a1b26;
-  padding: 0.3rem 0.7rem;
-  margin: 5px 0px; /* 5px top/bottom margin, 0px left/right (base for individual control) */
-  border-radius: 6px; /* These modules are always rounded */
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  min-width: 0;
-  border: none;
-  /* Transition for background-color and color only */
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+#clock,
+#pulseaudio,
+#battery,
+#network,
+#cpu,
+#memory,
+#tray {
+    color: @text;
+    padding: 4px 12px;
+    margin: 4px 3px;
+    border-radius: 10px;
 }
+
+/* ---------- workspaces ---------- */
 
 #workspaces {
-  padding: 2px;
-  margin-left: 7px; /* Margin from the far left edge */
-  margin-right: 5px; /* Spacing after the workspaces module */
-}
-
-#custom-uptime {
-  margin-right: 5px; /* Spacing after the uptime module */
-}
-
-/* Simple Hover effects for individual left modules - BRIGHTER COLOR */
-#custom-uptime:hover,
-#cpu:hover {
-  background-color: rgb(41, 42, 53); /* Brighter highlight */
+    padding: 2px 6px;
 }
 
 #workspaces button {
-  color: #babbf1;
-  border-radius: 5px; /* Workspaces buttons are always rounded */
-  padding: 0.3rem 0.6rem;
-  background: transparent;
-  transition: all 0.2s ease-in-out;
-  border: none;
-  outline: none;
+    padding: 2px 8px;
+    margin: 2px;
+    border-radius: 8px;
+    color: @subtext1;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+#workspaces button.empty {
+    color: @overlay0;
 }
 
 #workspaces button.active {
-  color: #99d1db;
-  background-color: rgba(153, 209, 219, 0.1);
-  box-shadow: inset 0 0 0 1px rgba(153, 209, 219, 0.2);
+    color: @mauve;
+    font-weight: bold;
 }
 
-#workspaces button:hover {
-  background: rgb(41, 42, 53); /* Reference bright hover color */
-  color: #c6d0f5;
+#workspaces button.urgent {
+    background-color: @red;
+    color: @crust;
 }
 
-/* --- Center Module (Individual, Fully Rounded Block - With Simple Hover) --- */
-#clock {
-  background-color: #1a1b26;
-  padding: 0.3rem 0.7rem;
-  margin: 5px 0px;
-  border-radius: 6px; /* This module is always rounded */
-  box-shadow: 0 1px 3px rgba(153, 209, 219, 0.2);
-  min-width: 0;
-  border: none;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-}
-
-/* Simple Hover effect for clock module - BRIGHTER COLOR */
-#clock:hover {
-  background-color: rgba(153, 209, 219, 0.1); /* Brighter highlight */
-}
-
-#custom-pomodoro {
-    background-color: #1a1b26; /* Consistent dark background */
-    padding: 0.3rem 0.7rem; /* Consistent padding with other modules (e.g., cpu, uptime) */
-    margin: 5px 0px; /* 5px top/bottom margin, 0px left/right (base for individual control) */
-    border-radius: 6px; /* Consistent rounded corners with other individual modules */
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Consistent shadow */
-    min-width: 0;
-    border: none;
-    outline: none; /* Ensure no default outline */
-    /* Transition for background-color, color, outline, and box-shadow for smooth effect */
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, outline 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    color: #babbf1; /* A calm color, consistent with custom-uptime */
-    font-weight: 600; /* Slightly bolder for the timer, consistent with clock */
-}
-
-/* Positioning and spacing for the custom-pomodoro module */
-#custom-pomodoro {
-    margin-left: 5px; /* Spacing from the previous module (e.g., clock) */
-    margin-right: 5px; /* Spacing before the seamless right bar starts (e.g., bluetooth) */
-}
-
-/* Hover effect for the new pomodoro module (consistent with others + rectangular outline) */
-#custom-pomodoro:hover {
-    background-color: rgb(41, 42, 53); /* Brighter highlight, consistent with other individual modules */
-    color: #c6d0f5; /* Text color change on hover, consistent with other individual modules */
-    outline: 1px solid rgba(255, 255, 255, 0.1); /* Rectangular outline on hover */
-    outline-offset: -1px;
-}
-
-/* --- Highlighted state for Pomodoro module when running (work or break) --- */
-#custom-pomodoro.work,
-#custom-pomodoro.break {
-  color: #99d1db; /* Text color consistent with active workspaces button */
-  background-color: rgba(153, 209, 219, 0.1); /* Background color consistent with active workspaces button */
-  box-shadow: inset 0 0 0 1px rgba(153, 209, 219, 0.2); /* Inner shadow for outline effect */
-  outline: none;
-}
-
-/* --- Right Modules (Single, Seamless Bar ) --- */
-#bluetooth,
-#pulseaudio,
-#backlight,
-#network,
-#custom-lock,
-#battery {
-  background-color: #1a1b26;
-  padding: 0.3rem 0.7rem;
-  margin: 5px 0px; 
-  border-radius: 0;
-  box-shadow: none;
-  min-width: 0;
-  border: none;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-}
-
-#bluetooth:hover,
-#pulseaudio:hover,
-#backlight:hover,
-#network:hover,
-#custom-lock:hover,
-#battery:hover {
-  background-color: rgb(41, 42, 53);
-}
-
-#bluetooth {
-  margin-left: 0px; 
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
-}
-
-#battery {
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-  margin-right: 7px;
-}
-
-#custom-uptime {
-  color: #babbf1;
-}
-#cpu {
-  color: #c6d0f5;
-}
+/* ---------- clock ---------- */
 
 #clock {
-  color: #99d1db;
-  font-weight: 500;
+    color: @blue;
+    font-weight: bold;
 }
+
+/* ---------- pulseaudio ---------- */
 
 #pulseaudio {
-  color: #c6d0f5;
-}
-#backlight {
-  color: #c6d0f5;
+    color: @green;
 }
 
+#pulseaudio.muted {
+    color: @overlay0;
+}
+
+/* ---------- battery ---------- */
+
+#battery {
+    color: @green;
+}
+
+#battery.charging {
+    color: @teal;
+}
+
+#battery.warning:not(.charging) {
+    color: @yellow;
+}
+
+#battery.critical:not(.charging) {
+    color: @red;
+}
+
+/* ---------- network ---------- */
+
 #network {
-  color: #c6d0f5;
+    color: @peach;
 }
 
 #network.disconnected {
-  color: #e78284;
+    color: @red;
 }
 
-#custom-lock {
-  color: #babbf1;
-}
-#bluetooth {
-  color: #888888;
-  font-size: 16px;
-}
-#bluetooth.on {
-  color: #2196f3;
-}
-#bluetooth.connected {
-  color: #99d1db;
-}
-#battery {
-  color: #99d1db;;
-}
-#battery.charging {
-  color: #a6d189;
-}
-#battery.warning:not(.charging) {
-  color: #e78284;
+/* ---------- cpu / memory ---------- */
+
+#cpu {
+    color: @mauve;
 }
 
-/* --- Tooltip Styles --- */
-tooltip {
-  background-color: #1a1b26;
-  color: #dddddd;
-  padding: 5px 12px;
-  margin: 5px 0px;
-  border-radius: 6px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  font-size: 12px;
+#memory {
+    color: @lavender;
 }
 
+/* ---------- tray ---------- */
 
+#tray {
+    padding: 2px 10px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    background-color: @red;
+    border-radius: 8px;
+}
+
+#custom-airpods {
+  background-image: url("/home/sanjar/.config/waybar/airpods.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 18px 18px; /* Adjust size to fit your bar height */
+  padding-left: 24px; /* Adjust based on icon size + desired gap */
+}

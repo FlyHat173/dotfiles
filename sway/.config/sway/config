@@ -73,6 +73,7 @@ output * bg /home/yeah/dotfiles/image/wallhaven-zpvdzv_1920x1080.png fill
     bindsym $mod+t exec nautilus
     bindsym $mod+v exec firefox
     bindsym $mod+i exec hyprlock 
+    bindsym $mod+Shift+b exec poweroff
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.

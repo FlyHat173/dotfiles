@@ -22,7 +22,7 @@ exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DE
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/yeah/dotfiles/image/wallhaven-zpvdzv_1920x1080.png fill
+output * bg /home/yeah/dotfiles/image/wallhaven-1pmoy3_1920x1080.png fill
 #
 # Example configuration:
 #

@@ -1,6 +1,6 @@
 configuration{
     modi: ["drun", "window", "run"];
-    icon-theme: "Papirus-Dark";
+    icon-theme: "ModernXP2";
     show-icons: true;
     terminal: "wezterm";
     drun-display-format: "{icon} {name}";

@@ -82,7 +82,7 @@ output * bg /home/yeah/dotfiles/image/wallhaven-vpyekp_1920x1080.png fill
     # Despite the name, also works for non-floating windows.
     # Change normal to inverse to use left mouse button for resizing and right
     # mouse button for dragging.
-    floating_modifier $mod normal
+    floating_modifier $mod split
 
     # Reload the configuration file
     bindsym $mod+Shift+c reload

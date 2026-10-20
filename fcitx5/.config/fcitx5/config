@@ -31,8 +31,7 @@ TogglePreedit=
 ModifierOnlyKeyTimeout=250
 
 [Hotkey/TriggerKeys]
-0=Hangul
-1=Shift+Tab
+0=Shift+Tab
 
 [Behavior]
 # Active By Default

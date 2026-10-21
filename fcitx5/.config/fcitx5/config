@@ -31,7 +31,7 @@ TogglePreedit=
 ModifierOnlyKeyTimeout=250
 
 [Hotkey/TriggerKeys]
-0=Shift+Tab
+0=Alt+Shift+Alt_L
 
 [Behavior]
 # Active By Default

@@ -12,20 +12,19 @@
   "modules-right": [
     "group/expand",
     "tray",
-    "custom/airpods",
     "pulseaudio#source",
     "battery",
   ],
   "reload_style_on_change": true,
 
-  "hyprland/window": {
+  "sway/window": {
       "format": "{class}  {title}",
       "icon": false,
       "max-length": 50,
       "separate-outputs": true,
       "tooltip": false
   },
-  "hyprland/workspaces": {
+  "sway/workspaces": {
       "format": "{icon}",
       "tooltip": false,
       "all-outputs": false,
@@ -45,15 +44,11 @@
   },
   "pulseaudio#source": {
     "format": "{icon} {volume}%",
-    "format-muted": "󰝟",
     "tooltip": true,
     "tooltip-format": "Volume: {volume}%",
     "format-icons": {
       "headphone": "",
       "default": [
-        "",
-        "",
-        ""
       ],
     },
     "scroll-step": 5,
